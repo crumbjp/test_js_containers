@@ -1,0 +1,19 @@
+{
+  "name": "test_js_containers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --expose-gc index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tylerbu/sorted-btree-es6": "^1.8.0",
+    "lodash": "^4.17.21",
+    "lokijs": "^1.5.12",
+    "nedb": "^1.8.0",
+    "taffydb": "^2.7.3",
+    "tingodb": "^0.6.1"
+  }
+}

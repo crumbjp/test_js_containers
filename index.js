@@ -600,8 +600,7 @@ async function test(times) {
 
 (async () => {
   const results = [];
-  // for( const times of [1, 5, 10, 50, 100, 300, 500, 700, 1000]) {
-  for( const times of [1, 5, 10]) {
+  for( const times of [1, 5, 10, 50, 100, 300, 500, 700, 1000]) {
     results.push(await test(times));
   }
   const header = ['class'].concat(_.map(results, (result) => result[0]));
